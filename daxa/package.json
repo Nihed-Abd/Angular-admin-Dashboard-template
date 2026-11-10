@@ -7,8 +7,7 @@
     "build": "node init && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:daxa": "node dist/daxa/server/server.mjs",
-    "preinstall": "node dist/setup.js"
+    "serve:ssr:daxa": "node dist/daxa/server/server.mjs"
   },
   "private": true,
   "dependencies": {
